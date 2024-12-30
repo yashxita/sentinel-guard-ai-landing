@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className="fixed top-10 left-[15%] z-50 flex items-center justify-between px-4 py-3 rounded-full shadow-lg w-[70%] mx-auto border font-poppins border-gray-400 text-md bg-[#0A0A0A] backdrop-blur-md"
+      className="fixed top-10 left-[15%] z-50 flex items-center justify-between px-4 py-3 rounded-full shadow-lg w-[70%] mx-auto border font-poppins border-gray-400 text-md bg-[#0A0A0A] "
     >
       <div className="text-black rounded-full py-2 px-3 bg-[#D6CCD5]">
         <p className="font-bold">Sentil Guard AI</p>
