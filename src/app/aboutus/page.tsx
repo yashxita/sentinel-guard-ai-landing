@@ -1,12 +1,14 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import Group495 from "../../public/Group 495.png";
-import TeamCard from "./TeamCard";
-import bottom from "../../public/bottom.png";
+import Group495 from "../../../public/Group 495.png";
+import TeamCard from "../../components/TeamCard";
+import bottom from "../../../bottom.png";
+import Navbar from "@/components/Navbar";
 export default function FoundationSection() {
   return (
     <div className="bg-black min-h-screen">
+      <Navbar/>
       <section
         className="min-h-screen bg-no-repeat bg-cover bg-top"
         style={{
